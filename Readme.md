@@ -1,6 +1,8 @@
 Gridelements doctor
 ===================
 
+![gridelements](ansilogo.png "Gridelements Doctor")
+
 This is a repair tool to check and fix all Gridelements items in a TYPO3 installation.
 
 Scenario
