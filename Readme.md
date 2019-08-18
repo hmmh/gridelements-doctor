@@ -1,6 +1,8 @@
 Gridelements doctor
 ===================
 
+![gridelements](ansilogo.png "Gridelements Doctor")
+
 This is a repair tool to check and fix all Gridelements items in a TYPO3 installation.
 
 Scenario
@@ -23,6 +25,8 @@ often inconspicuous, many content elements that are difficult or impossible to r
 However, such a migration (or misbehavior-fix-tool) will not be provided by Gridelements. 
 
 So we want to introduce that missing feature with this doctor tool.
+
+[Thanks to Jo Hasenau](https://gitlab.com/cybercraft.jh)
 
 
 Solution
