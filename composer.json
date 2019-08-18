@@ -1,0 +1,51 @@
+{
+  "name": "hmmh/gridelements-doctor",
+  "description": "Validate and repair gridelements infrastructure",
+  "keywords": [
+    "gridelements",
+    "doctor",
+    "validate",
+    "repair",
+    "optimize",
+    "migrate",
+    "migration",
+    "typo3"
+  ],
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Jan Runte",
+      "email": "jan.runte@hmmh.de"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor",
+    "optimize-autoloader": true,
+    "process-timeout": 600,
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "*",
+    "ext-mbstring": "*",
+    "doctrine/dbal": "^2.9",
+    "helhum/dotenv-connector": "~2.1.0"
+  },
+  "require-dev": {
+    "composer/composer": "~1.8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HMMH\\GridelementsDoctor\\": "Classes/"
+    }
+  },
+  "scripts-descriptions": {
+    "doctor": "-- GRIDELEMENTS -- Examine your installation for invalid data."
+  },
+  "scripts": {
+    "doctor": [
+      "HMMH\\GridelementsDoctor\\Doctor::visit"
+    ]
+  }
+}
