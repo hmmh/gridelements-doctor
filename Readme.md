@@ -26,7 +26,7 @@ However, such a migration (or misbehavior-fix-tool) will not be provided by Grid
 
 So we want to introduce that missing feature with this doctor tool.
 
-[Thanks to Jo Hasenau](https://gitlab.com/cybercraft.jh)
+[Special thanks go to Jo Hasenau](https://gitlab.com/cybercraft.jh)
 
 
 Solution
