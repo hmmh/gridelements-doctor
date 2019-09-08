@@ -97,7 +97,7 @@ Application
 -----------
 
 ```
-    $ ./doctor.php help
+    $ ./doctor.php --help
 ```
 
 Wishlist
