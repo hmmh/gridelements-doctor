@@ -26,7 +26,7 @@ However, such a migration (or misbehavior-fix-tool) will not be provided by Grid
 
 So we want to introduce that missing feature with this doctor tool.
 
-[Special thanks to Jo Hasenau](https://gitlab.com/cybercraft.jh)
+[Special thanks (goes) to Jo Hasenau](https://gitlab.com/cybercraft.jh)
 
 
 Solution
@@ -82,10 +82,17 @@ will no longer work.
 Installation
 ------------
 
+Development:
 ```
-    $ git clone https://..../ gridoc
-    $ composer install --no-dev
+    $ git clone https://github.com/hmmh/gridelements-doctor/ griddoc
+    $ composer install
 ```
+
+Application:
+```
+    $ composer global require hmmh/gridelements-doctor
+```
+
 
 Preparation
 -----------
@@ -108,14 +115,6 @@ Wishlist
 
 Implement "gridelements doctor" to an TYPO3 console task and provide it as a TYPO3 extension:
 
-
-**Installation**
-
-```
-    $ composer require hmmh/gridelements-doctor --no-dev
-```
-
-
 **Application**
 
 ```
@@ -123,7 +122,7 @@ Implement "gridelements doctor" to an TYPO3 console task and provide it as a TYP
     $ typo3cms gridelements:doctor --heal
 ```
 
-1 - TYPO3 backend module
+2 - TYPO3 backend support
 -------------------------
 
-Implement "gridelements Doctor" to TYPO3 backend as module.
+Implement "gridelements Doctor" to TYPO3 backend with scheduler task and examination room. 
