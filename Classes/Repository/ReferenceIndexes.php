@@ -184,7 +184,7 @@ SQL
          */
         protected function getColumnsFromModelClass(): array
         {
-            return [];
+            return ReferenceIndex::getTableColumns();
         }
     }
 }
