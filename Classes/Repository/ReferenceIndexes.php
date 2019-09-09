@@ -16,6 +16,7 @@
     use HMMH\GridelementsDoctor\Model\Content;
     use PDO;
     use PDOStatement;
+    use HMMH\GridelementsDoctor\Model\ReferenceIndex;
 
     /**
      * Class ReferenceIndex
