@@ -88,7 +88,7 @@ Development:
     $ composer install
 ```
 
-Application:
+Production:
 ```
     $ composer global require hmmh/gridelements-doctor
 ```
