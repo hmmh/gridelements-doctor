@@ -103,9 +103,17 @@ Copy the `.env.template` file to `.env` and adjust the credentials for your data
 Application
 -----------
 
+Development:
+
 ```
-    $ ./doctor.php --help
+    $ composer doctor
 ```
+
+Production (depends on PATH environment):
+```
+    $ griddoc --help
+```
+
 
 Wishlist
 ========

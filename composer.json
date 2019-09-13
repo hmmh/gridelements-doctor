@@ -41,6 +41,9 @@
       "HMMH\\GridelementsDoctor\\": "Classes/"
     }
   },
+  "bin": [
+    "bin/griddoc.php"
+  ],
   "scripts-descriptions": {
     "doctor": "-- GRIDELEMENTS -- Examine your installation for invalid data."
   },
